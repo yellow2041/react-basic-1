@@ -1,3 +1,6 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+
 function LikeButton() {
   const [liked, setLiked] = React.useState(false);
   const text = liked ? '좋아요 취소' : '좋아요';
